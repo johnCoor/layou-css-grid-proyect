@@ -1,0 +1,11 @@
+.container{
+    border: 5px solid #e1bee7;
+    display: grid;
+    grid-template-columns: minmax(10px, 300px) minmax(10px, 250px) minmax(10px, 250px);
+    grid-template-rows: repeat(3, auto);
+}
+
+.items{
+    border: 2px solid green;
+}
+

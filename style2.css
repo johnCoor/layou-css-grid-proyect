@@ -1,0 +1,46 @@
+.container{
+   
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 20px;
+    color: blue;
+    justify-content: start;
+    
+}
+
+.items{
+    display: grid;
+    justify-items: center;  
+    border:  2px solid green;
+    justify-items: end;
+    align-items: flex-end;
+    background: red;
+    font-size: 45px;
+    
+}
+
+.item1{
+    display: grid;
+    justify-self: end;
+    align-self: flex-start;
+}
+
+
+.item4{
+    display: grid;
+    align-self: center;
+    justify-self: start;
+}
+
+.item2{
+    display: grid;
+   
+    align-self: end;
+}
+
+.item3{
+    display: grid;
+    align-self: center;
+   
+}
